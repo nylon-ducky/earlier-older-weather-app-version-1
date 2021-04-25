@@ -1,0 +1,134 @@
+#all {
+  background: linear-gradient(#52b4fa, #badaf0);
+  background-repeat: no-repeat;
+}
+
+html {
+  width: 100%;
+  height: 80%;
+  display: inline-block;
+  justify-content: center;
+}
+
+body {
+  width: 88%;
+  height: 100%;
+  justify-content: center;
+  margin: auto;
+  /*   background: linear-gradient(#52b4fa, #badaf0, #ffff);
+    background-repeat: no-repeat;
+*/
+}
+
+#timezone,
+#current-description,
+#feels-like,
+#current-temp,
+#tom-description,
+#tom-temp,
+#today,
+#week {
+  font-family: sans-serif;
+  font-size: 3vmax;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  word-wrap: break-word;
+}
+#current,
+#tomorrow {
+  max-width: 65vw;
+  margin: auto;
+  margin-top: 10px;
+  /*
+    background:rgba(122, 128, 133, 0.2);
+    border-radius: 100px;
+  */
+}
+
+#image,
+#image0 {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+#img,
+#img0 {
+  display: flex;
+  justify-content: center;
+  width: 20%;
+  height: 20%;
+}
+
+#days {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  margin-top: 30px;
+  padding: 1%;
+  font-size: 2.5vmax;
+  text-align: center;
+  word-wrap: break-word;
+  max-width: 65vw;
+
+  /*
+    
+    display: block;
+    justify-content: center;
+    margin: auto;
+    margin-top: 30px;
+    padding: 1%;
+    font-size: 2.5vmax;
+    text-align: center;
+    word-wrap: break-word;
+    overflow-x: auto;
+    overflow-y: auto;
+    min-height: 5vh;
+    min-width: 5vw;
+    max-height: 48vh;
+    max-width: 40vh;
+    */
+
+  border: solid black;
+  background: rgba(128, 195, 243, 0.8), rgba(163, 210, 243, 0.8);
+  background-repeat: no-repeat;
+}
+
+#day1,
+#day2,
+#day3,
+#day4,
+#day5,
+#day6,
+#day7 {
+  display: table;
+  border: 1px solid black;
+  padding: 10px;
+  margin: 10px;
+  height: 20vh;
+  max-width: 12vw;
+
+  /*
+    display: block;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    min-width: fit-content;
+    min-height: fit-content;
+    */
+}
+
+#day1img,
+#day2img,
+#day3img,
+#day4img,
+#day5img,
+#day6img,
+#day7img {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+}
